@@ -42,7 +42,7 @@ if(!empty($_POST['stripeToken'])){
     $itemName = "SHIV SADHNA DONATION";
     $itemNumber = "SADHNA987654321";
     $itemPrice = 50;
-    $currency = "usd";
+    $currency = "inr";
     $orderID = "SKA987654321";    
     // details for which payment performed
     $payDetails = \Stripe\Charge::create(array(

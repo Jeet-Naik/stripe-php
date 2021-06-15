@@ -1,7 +1,6 @@
 // set your stripe publishable key
 Stripe.setPublishableKey('pk_test_51InNgKSEqyWOgFIVy6lzTGSliBiCQBFR9oetgsLaWbNGSNBo2YB3VCbYcd0Ae2jG8cxcXKGNZQsBkHSDUjKAtfgx00SlFSXLKm');
 $(document).ready(function() {
-    alert('test');
     $("#paymentForm").submit(function(event) {
         $('#makePayment').attr("disabled", "disabled");
         // create stripe token to make payment
